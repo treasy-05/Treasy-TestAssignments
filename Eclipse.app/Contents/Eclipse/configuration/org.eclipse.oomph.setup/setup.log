@@ -1,0 +1,66 @@
+[2024-05-24 14:18:50] Executing bootstrap tasks
+[2024-05-24 14:18:50] OpenJDK Runtime Environment 17.0.10+7
+[2024-05-24 14:18:50] Product org.eclipse.products.epp.package.java.2024-03
+[2024-05-24 14:18:50] Bundle org.eclipse.oomph.setup 1.28.0.v20231119-1528, build=468, branch=a85e87d0e90de82218812f7820eaf93a6a75d7c2
+[2024-05-24 14:18:50] Bundle org.eclipse.oomph.setup.core 1.30.0.v20240211-0940, build=468, branch=a85e87d0e90de82218812f7820eaf93a6a75d7c2
+[2024-05-24 14:18:50] Bundle org.eclipse.oomph.setup.p2 1.20.0.v20230617-1322, build=468, branch=a85e87d0e90de82218812f7820eaf93a6a75d7c2
+[2024-05-24 14:18:50] Performing P2 Director (Eclipse IDE for Java Developers (2024-03))
+[2024-05-24 14:18:50] Offline = false
+[2024-05-24 14:18:50] Mirrors = true
+[2024-05-24 14:18:50] Resolving 27 requirements from 3 repositories to /Users/Sebastian/Documents/TestTree/MavenProject/Eclipse.app/Contents/Eclipse
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:epp.package.java [4.31.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.31.0,5.0.0)
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.31.0,5.0.0)
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.xml.feature.feature.group
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext_feature.feature.group (min=0) (max=0) (greedy)
+[2024-05-24 14:18:50] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2024-05-24 14:18:50] Repository https://download.eclipse.org/technology/epp/packages/2024-03/202403071200
+[2024-05-24 14:18:50] Repository https://download.eclipse.org/releases/2024-03/202403131000
+[2024-05-24 14:18:50] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-05-24 14:18:55] Calculating requirements and dependencies.
+[2024-05-24 14:18:56] Computing prerequisite plan
+[2024-05-24 14:19:00] Collecting 2 artifacts from https://download.eclipse.org/releases/2024-03/202403131000
+[2024-05-24 14:19:01] Collected 2 artifacts for https://download.eclipse.org/releases/2024-03/202403131000 in 0.998s
+[2024-05-24 14:19:01] Collecting 1 artifacts from https://download.eclipse.org/technology/epp/packages/2024-03/202403071200
+[2024-05-24 14:19:01] Collected 1 artifacts for https://download.eclipse.org/technology/epp/packages/2024-03/202403071200 in 0.001s
+[2024-05-24 14:19:01] Collecting 13 artifacts from https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.p2.core_1.29.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (419.58kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.p2_1.30.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/features/ (20.95kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.setup.core_1.31.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/features/ (21.06kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.p2_1.30.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/features/ (20.95kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.setup.core_1.31.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/features/ (21.06kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.202405041504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (42.87kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.p2.ui_1.22.0.v20240510-1552.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (380.96kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.ui_1.22.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (405.51kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.jreinfo_1.19.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (43.7kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.setup_1.32.0.v20240521-1032.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/features/ (21kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.setup.ui_1.30.0.v20240521-1032.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (799.22kB)
+[2024-05-24 14:19:04] Fetching org.eclipse.oomph.jreinfo.ui_1.16.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (56.69kB)
+[2024-05-24 14:19:05] Fetching org.eclipse.oomph.p2.ui_1.22.0.v20240510-1552.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/
+[2024-05-24 14:19:05] Fetching org.eclipse.oomph.setup.ui_1.30.0.v20240521-1032.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/
+[2024-05-24 14:19:05] Fetching org.eclipse.oomph.util_1.22.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (235.36kB)
+[2024-05-24 14:19:05] Fetching org.eclipse.oomph.setup_1.29.0.v20240520-1504.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (365.51kB)
+[2024-05-24 14:19:05] Fetching org.eclipse.oomph.workingsets.editor_1.16.0.v20240510-1552.jar from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/plugins/ (116.95kB)
+[2024-05-24 14:19:06] Mirrored 13 artifacts from https://download.eclipse.org/oomph/drops/milestone/S20240521-152932-1.33.0-M3/ at 132kb/s
+[2024-05-24 14:19:06] Collected 13 artifacts for https://download.eclipse.org/oomph/updates/milestone/latest in 4.582s
